@@ -1,0 +1,198 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background: #20232a;
+    color: #00b81f;
+    padding: 1rem 0;
+}
+
+header .logo h1 {
+    display: inline-block;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #00c334;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#hero {
+    background: rgb(27, 29, 32) no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+#hero .btn {
+    display: inline-block;
+    background: #61c791;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#hero .btn:hover {
+    background: #4dab6a;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #20232a;
+}
+
+#benefits .benefit {
+    text-align: center;
+    padding: 20px;
+}
+
+#benefits .benefit img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+#benefits .benefit h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#about,
+#services,
+#testimonials {
+    background: #fff;
+}
+
+#services .service {
+    text-align: center;
+    padding: 20px;
+}
+
+#services .service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#services .service p {
+    margin-bottom: 10px;
+}
+
+#testimonials blockquote {
+    font-style: italic;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    border-left: 5px solid #1df500;
+}
+
+#testimonials footer {
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#cta {
+    text-align: center;
+    background: #20232a;
+    color: #61dafb;
+    padding: 40px 0;
+}
+
+#cta h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#cta .btn {
+    background: #61c791;
+    color: #fff;
+    border: 2px solid #61c791;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+#cta .btn:hover {
+    background: #4dab6a;
+    color: #fff;
+}
+
+footer {
+    background: #20232a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
